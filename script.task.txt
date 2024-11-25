@@ -1,0 +1,48 @@
+[CRUD CLI de Tasks] {
+
+   Objetivo:
+      Criar um CRUD simples para gerenciar tarefas (tasks) via linha de comando (CLI).
+
+   Estrutura da Task:
+      - Atributos:
+      - id (Int) : Identificador único da tarefa.
+      - title (String) : Título da tarefa.
+      - content (String) : Descrição detalhada da tarefa.
+      - status (Boolean) : Indica se a tarefa foi concluída (true/false).
+      - date (Datetime) : Data e hora de criação da tarefa.
+
+   Execução do Código:
+      - O programa rodará dentro de um loop `while`, permitindo que o usuário escolha operações até sair do sistema.
+
+   Funcionalidades CRUD:
+      1. Create (Criar):
+         - Função para adicionar uma nova tarefa.
+         - A tarefa é armazenada em um dicionário com o id como chave.
+
+      2. Read (Ler):
+         - Função para visualizar todas as tarefas.
+         - Função para visualizar uma tarefa específica pelo id.
+
+      3. Update (Atualizar):
+         - Função para editar uma tarefa existente.
+         - Permite editar título, descrição e status.
+
+      4. Delete (Excluir):
+         - Função para remover uma tarefa pelo id.
+
+   Validação e Erros:
+      - O código deve validar entradas para evitar:
+      - Ids duplicados ao adicionar novas tarefas.
+      - Tentativas de acessar ou excluir tarefas com id inexistente.
+      - Exceções (try/except) devem ser usadas para tratar erros, como falha ao tentar acessar uma tarefa inexistente.
+
+   Armazenamento:
+      - Os dados serão armazenados em dicionários, de forma semelhante ao formato JSON, onde a chave é o id e o valor é o objeto da tarefa.
+
+   Comentários e Boas Práticas:
+      - O código deve ser bem comentado, explicando:
+      - A estrutura do código.
+      - O propósito de cada função.
+      - A lógica por trás das operações CRUD.
+      - Modularização: Cada operação CRUD será implementada como uma função separada.
+}

@@ -1,0 +1,14 @@
+C:\open.depot.dev\lab.cs\syntax\bin\Debug\net8.0\syntax.exe
+C:\open.depot.dev\lab.cs\syntax\bin\Debug\net8.0\syntax.deps.json
+C:\open.depot.dev\lab.cs\syntax\bin\Debug\net8.0\syntax.runtimeconfig.json
+C:\open.depot.dev\lab.cs\syntax\bin\Debug\net8.0\syntax.dll
+C:\open.depot.dev\lab.cs\syntax\bin\Debug\net8.0\syntax.pdb
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.GeneratedMSBuildEditorConfig.editorconfig
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.AssemblyInfoInputs.cache
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.AssemblyInfo.cs
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.csproj.CoreCompileInputs.cache
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.dll
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\refint\syntax.dll
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.pdb
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.genruntimeconfig.cache
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\ref\syntax.dll

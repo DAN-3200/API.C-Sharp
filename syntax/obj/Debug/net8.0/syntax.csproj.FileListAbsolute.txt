@@ -27,3 +27,4 @@ C:\local.depot.dev\lab.cs\syntax\obj\Debug\net8.0\refint\syntax.dll
 C:\local.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.pdb
 C:\local.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.genruntimeconfig.cache
 C:\local.depot.dev\lab.cs\syntax\obj\Debug\net8.0\ref\syntax.dll
+C:\open.depot.dev\lab.cs\syntax\obj\Debug\net8.0\syntax.sourcelink.json

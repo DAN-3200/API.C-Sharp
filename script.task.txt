@@ -2,7 +2,7 @@
 
    Objetivo:
       Criar um CRUD simples para gerenciar tarefas (tasks) via linha de comando (CLI).
-
+      
    Estrutura da Task:
       - Atributos:
       - id (Int) : Identificador único da tarefa.
@@ -32,8 +32,8 @@
 
    Validação e Erros:
       - O código deve validar entradas para evitar:
-      - Ids duplicados ao adicionar novas tarefas.
-      - Tentativas de acessar ou excluir tarefas com id inexistente.
+         - Ids duplicados ao adicionar novas tarefas.
+         - Tentativas de acessar ou excluir tarefas com id inexistente.
       - Exceções (try/except) devem ser usadas para tratar erros, como falha ao tentar acessar uma tarefa inexistente.
 
    Armazenamento:
@@ -41,8 +41,8 @@
 
    Comentários e Boas Práticas:
       - O código deve ser bem comentado, explicando:
-      - A estrutura do código.
-      - O propósito de cada função.
-      - A lógica por trás das operações CRUD.
+         - A estrutura do código.
+         - O propósito de cada função.
+         - A lógica por trás das operações CRUD.
       - Modularização: Cada operação CRUD será implementada como uma função separada.
 }

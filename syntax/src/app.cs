@@ -18,32 +18,38 @@ namespace CRUD // Semelhante ao Package do Golang
             Console.WriteLine("4 - Delete");
             Console.Write("Choose the option: ");
             var choose = Console.ReadLine();
+            Console.Clear();
+            try
+            {
+               switch (Convert.ToInt16(choose))
+               {
+                  case 1:
+                     CreateToDo();
+                     break;
+                  case 2:
+                     ReadToDo();
+                     break;
+                  case 3:
+                     UpdateTodo();
+                     break;
+                  case 4:
+                     DeleteToDo();
+                     break;
+               }
+               if (Convert.ToInt16(choose) == -1)
+               {
+                  break;
+               }
+            }
+            catch
+            {
+               Console.WriteLine("type choose invalid");
+            }
 
-            switch (Convert.ToInt16(choose))
-            {
-               case 1:
-                  Console.Clear();
-                  CreateToDo();
-                  break;
-               case 2:
-                  Console.Clear();
-                  ReadToDo();
-                  break;
-               case 3:
-                  Console.Clear();
-                  UpdateTodo();
-                  break;
-               case 4:
-                  Console.Clear();
-                  DeleteToDo();
-                  break;
-            }
-            if (Convert.ToInt16(choose) == -1)
-            {
-               break;
-            }
          } while (true);
       }
+
+      // Methods
       static void CreateToDo()
       {
          Console.Write("Title: ");
@@ -77,7 +83,6 @@ namespace CRUD // Semelhante ao Package do Golang
                   System.Console.WriteLine(item);
                }
             }
-            Console.WriteLine(DB);
          }
          else if (choose.ToUpper() == "B")
          {

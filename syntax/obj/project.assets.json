@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MAIS PETS RACOES\\.nuget\\packages\\": {}
+    "C:\\Users\\Tunes\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\open.depot.dev\\lab.cs\\syntax\\syntax.csproj",
+      "projectUniqueName": "C:\\local.depot.dev\\lab.cs\\syntax\\syntax.csproj",
       "projectName": "syntax",
-      "projectPath": "C:\\open.depot.dev\\lab.cs\\syntax\\syntax.csproj",
-      "packagesPath": "C:\\Users\\MAIS PETS RACOES\\.nuget\\packages\\",
-      "outputPath": "C:\\open.depot.dev\\lab.cs\\syntax\\obj\\",
+      "projectPath": "C:\\local.depot.dev\\lab.cs\\syntax\\syntax.csproj",
+      "packagesPath": "C:\\Users\\Tunes\\.nuget\\packages\\",
+      "outputPath": "C:\\local.depot.dev\\lab.cs\\syntax\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\MAIS PETS RACOES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

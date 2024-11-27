@@ -5,7 +5,10 @@ namespace CRUD // Semelhante ao Package do Golang
 {
    public static class SystemToDo
    {
+      // variável para armazenar as informações
       public static List<ToDo> DB = new List<ToDo>();
+
+      // Função para rodar o sistema
       public static void RunApp()
       {
          Console.Clear();
@@ -30,7 +33,7 @@ namespace CRUD // Semelhante ao Package do Golang
                      ReadToDo();
                      break;
                   case 3:
-                     UpdateTodo();
+                     UpdateToDo();
                      break;
                   case 4:
                      DeleteToDo();
@@ -49,7 +52,7 @@ namespace CRUD // Semelhante ao Package do Golang
          } while (true);
       }
 
-      // Methods
+      // Métodos de operação
       static void CreateToDo()
       {
          Console.Write("Title: ");
@@ -94,7 +97,7 @@ namespace CRUD // Semelhante ao Package do Golang
          }
 
       }
-      static void UpdateTodo()
+      static void UpdateToDo()
       {
          Console.Write("Update the ToDo by ID: ");
          int nID = Convert.ToInt16(Console.ReadLine());

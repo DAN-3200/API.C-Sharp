@@ -2,10 +2,10 @@
 public class ToDo
 {
    static int count_Id = 0;
-   public int Id;
-   public string Title;
-   public string Content;
-   public bool Status;
+   public int Id { get; }
+   public string Title { get; set; }
+   public string Content { get; set; }
+   public bool Status { get; set; }
    public DateTime _Date { get; private set; }
 
    // Atributo data
